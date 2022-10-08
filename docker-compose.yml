@@ -30,7 +30,7 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/ubuntu/paragon_test/views
+      device: /home/ubuntu/paragon-test/views
       o: bind
 networks:
   app-network:
